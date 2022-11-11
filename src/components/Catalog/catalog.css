@@ -1,0 +1,62 @@
+.filter-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+select {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+
+.catalog-items {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.catalog-items .view-more-btn {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #282828;
+    color: white;
+    font-weight: 700;
+}
+
+.catalog-item {
+    height: 500px;
+    width: 220px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.catalog-hr {
+    border: 2px solid gray;
+}
+
+.apply-btn {
+    border-radius: 5px;
+    border: solid gray 1.5px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 400;
+    margin-right: 25px;
+}
