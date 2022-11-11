@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    min-width: 1400px;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-left: 300px;
+}
+
+.header li {
+    display: block;
+
+}
+
+.header li>* {
+    text-decoration: none;
+    color: gray;
+}
+
+.header-hr {
+    border: 2px solid gray;
+}
+
+.header .label {
+    color: blue;
+}
