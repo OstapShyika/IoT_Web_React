@@ -16,7 +16,6 @@ export default function DetailsCat(props) {
     { 'price': 40, 'description': 'More stuff' }]);
     let sortedDetailss = [];
     let foundDetailss = detailsList.filter(details => details.description.search(searchValue) !== -1);
-    console.log(sortBy, sortOrder);
     if (sortBy === 'Price') {
         if (sortOrder === 'Ascending') {
             sortedDetailss = foundDetailss.sort(function (a, b) {
