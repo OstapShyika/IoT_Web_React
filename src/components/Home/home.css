@@ -1,0 +1,40 @@
+.home {
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.items-comp {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    text-align: left;
+}
+
+.home-text.p { 
+    text-align: left;
+}
+
+.h1 { 
+    font-weight: 700;
+}
+
+.view-more-btn {
+    margin-bottom: 200px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #282828;
+    color: white;
+    font-weight: 700;
+}
+
+.home-hr {
+    border: 2px solid gray;
+}
